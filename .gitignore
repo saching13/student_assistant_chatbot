@@ -1,0 +1,10 @@
+chatbot_config.py
+*idea
+.idea
+.idea/*
+build
+.DS_Store
+*.gz
+config
+images
+*.csv

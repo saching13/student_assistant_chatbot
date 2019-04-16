@@ -1,0 +1,172 @@
+%YAML 1.1
+---
+actions:
+- utter_greet
+- utter_did_that_help
+- utter_okay
+- utter_happy
+- utter_goodbye
+- utter_unclear
+- utter_ask_picture
+- utter_answer_for_work_authorization
+- utter_answer_for_student_work
+- utter_answer_for_work_timings
+- utter_answer_for_taxes
+- utter_answer_E_verify
+- utter_answer_Visa_interview
+- utter_answer_travel_date
+- utter_answer_customs_immigration
+- utter_answer_questions_during_visa
+- utter_answer_health_insurance
+- utter_answer_immunization
+- utter_answer_housing
+- utter_answer_course_registration
+- utter_answer_tution
+- utter_answer_tower_ID
+- __main__.ApiAction
+config:
+  store_entities_as_slots: true
+entities:
+- group
+forms: []
+intents:
+- greet:
+    use_entities: true
+- goodbye:
+    use_entities: true
+- mood_affirm:
+    use_entities: true
+- mood_deny:
+    use_entities: true
+- mood_great:
+    use_entities: true
+- mood_unhappy:
+    use_entities: true
+- student_work_authorization:
+    use_entities: true
+- student_work:
+    use_entities: true
+- student_work_timings:
+    use_entities: true
+- taxes:
+    use_entities: true
+- E_verify:
+    use_entities: true
+- travel_date:
+    use_entities: true
+- Visa_interview:
+    use_entities: true
+- customs_immigration:
+    use_entities: true
+- health_insurance:
+    use_entities: true
+- housing:
+    use_entities: true
+- course_registration:
+    use_entities: true
+- tution:
+    use_entities: true
+- tower_ID:
+    use_entities: true
+- inform:
+    use_entities: true
+slots:
+  group:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+templates:
+  utter_answer_E_verify:
+  - text: E-Verify is an online system which allows businesses to determine the eligibility
+      of their employees to work in the United States. Students on the 17-Month (STEM)
+      Extension may only work with companies enrolled in E-Verify. To learn more about
+      E-verify, please visit the USCIS E-Verify page.
+  utter_answer_Visa_interview:
+  - text: 'You should take the following documents to your visa interview: Passport
+      I-20 SJSU acceptance letter Proof of financial support SEVIS fee receipt'
+  utter_answer_course_registration:
+  - text: All F-1 students must register for a full-time course load every semester.
+      Full time is considered 9 units per semester for graduate students and 12 units
+      per semester for undergraduates.For more information, come to the International
+      Student Advising (ISA) office for advising
+  utter_answer_customs_immigration:
+  - text: 'Please expect this process to be a lengthy experience and prepare in advance.
+      You must keep the following documents in your carry-on luggage so you are able
+      to present them to a CBP officer: Passport, valid for at least 6 months after
+      the date of entry F-1/J-1 visa stamp, valid at the time of entry* Valid Form
+      I-20/Form DS-2019 Proof of financial support and resources reflected on Form
+      I-20/Form DS-2019 Tuition and/or Housing receipt(s), if you have already made
+      payments prior to your arrival SEVIS fee receipt *Canadian citizens are not
+      required to apply for a visa to enter the U.S. as an F-1 or J-1, but must still
+      pay the SEVIS Fee and present their Form I-20 or DS-2019 at the U.S. port of
+      entry.'
+  utter_answer_for_student_work:
+  - text: 'In general, a student may be authorized to work off-campus after graduation  '
+  utter_answer_for_taxes:
+  - text: While employers typically withhold Medicare/Social Security taxes from employee’s
+      wages; this is NOT the case for non-resident, F-1 students. They are exempt
+      from these taxes, though they are still subject to income tax withholding. An
+      F-1 student is considered a non-resident for his or her first five calendar
+      years in the United States. Please consult with a tax professional for more
+      information on F-1 student taxes.
+  utter_answer_for_work_authorization:
+  - text: Pre-Completion OPT, Post-Completion OPT and the 24-Month STEM Extension
+      approvals are granted upon the student receipt of an Employment Authorization
+      Document (EAD Card). Students on CPT will receive confirmation through authorization
+      located on the third page of their I-20.
+  utter_answer_for_work_timings:
+  - text: During fall and spring semesters, students may only work part-time, (20
+      hours or less per week). During the summer, students may work full-time, (up
+      to 40 hours per week). Graduate students who have only their thesis or project
+      remaining may be authorized to work full-time during the semester on Post-Completion
+      OPT or Pre-Completion OPT.
+  utter_answer_health_insurance:
+  - text: 'SJSU approved health insurance plan is administered by JCB however your
+      insurance provider will be Aetna. Please purchase your health insurance from
+      the JCB website.  Follow these steps to purchase the correct plan: Go to the
+      JCB website Type in "San Jose State" Select "2018-2019 ISSS International Students"
+      Select semester or year. Input your information and payment information as instructed.
+      The insurance hold will be removed within 48 hours after purchase. '
+  utter_answer_housing:
+  - text: For information about living on campus, please contact University Housing
+      Services or consider the SJSU International House. You can alse check the nearby
+      areas for the same
+  utter_answer_immunization:
+  - text: You will need to provide proof of Measles and Hepatitis B immunization before
+      you can register for your second semester of classes. If you do not have documentation,
+      visit the SJSU Health Center to get your shots and proof of immunizations. These
+      forms must be submitted to the Student Services Center in person or via fax
+      to 408.924.2050.
+  utter_answer_questions_during_visa:
+  - text: 'These are a few examples of questions you are likely to be asked and should
+      be prepared to answer: What is your primary purpose for entering the U.S.? Where
+      do you plan to study while in the U.S.? What do you plan to study while in the
+      U.S.? Where will you be living while in the U.S.? How will you pay for your
+      tuition and living expenses while in the U.S.? How long do you plan to study
+      in the U.S.? What do you plan to do after completing your degree? In addition
+      to asking you these questions, CBP officers also have the right to look through
+      any electronic devices you may be carrying with you. '
+  utter_answer_tower_ID:
+  - text: Tower Cards are available at the Cashier's Office located in the Student
+      Services Center. You will be required to show one form of photo ID, such as
+      your passport or driver’s license.
+  utter_answer_travel_date:
+  - text: Students are only approved entry to the United States 30 days in advance
+      of the start date on their I-20. This start date will correlate with the first
+      day of classes for the term and can be located in section 5 of the I-20. Please
+      ensure your arrival is not more than 30 days prior to the indicated date
+  utter_answer_tutuion:
+  - text: The due date for your tuition and fees will be based on the day you register.
+      All fees and payment deadlines are posted on your MySJSU account
+  utter_did_that_help:
+  - text: Did that help you?
+  utter_goodbye:
+  - text: Bye
+  utter_greet:
+  - text: Hey! What can I help you with today?
+  utter_happy:
+  - text: Great carry on!
+  utter_okay:
+  - text: Okay
+  utter_unclear:
+  - text: My bad I din't get you!!! Is there anything else you would like to ask ?.

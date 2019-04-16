@@ -1,0 +1,552 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "greet",
+        "text": "hey"
+      },
+      {
+        "intent": "greet",
+        "text": "hello there"
+      },
+      {
+        "intent": "greet",
+        "text": "hi"
+      },
+      {
+        "intent": "greet",
+        "text": "hello there"
+      },
+      {
+        "intent": "greet",
+        "text": "good morning"
+      },
+      {
+        "intent": "greet",
+        "text": "good evening"
+      },
+      {
+        "intent": "greet",
+        "text": "moin"
+      },
+      {
+        "intent": "greet",
+        "text": "hey there"
+      },
+      {
+        "intent": "greet",
+        "text": "let's go"
+      },
+      {
+        "intent": "greet",
+        "text": "hey dude"
+      },
+      {
+        "intent": "greet",
+        "text": "goodmorning"
+      },
+      {
+        "intent": "greet",
+        "text": "goodevening"
+      },
+      {
+        "intent": "greet",
+        "text": "good afternoon"
+      },
+      {
+        "intent": "goodbye",
+        "text": "cu"
+      },
+      {
+        "intent": "goodbye",
+        "text": "good by"
+      },
+      {
+        "intent": "goodbye",
+        "text": "cee you later"
+      },
+      {
+        "intent": "goodbye",
+        "text": "good night"
+      },
+      {
+        "intent": "goodbye",
+        "text": "good afternoon"
+      },
+      {
+        "intent": "goodbye",
+        "text": "bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "goodbye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "have a nice day"
+      },
+      {
+        "intent": "goodbye",
+        "text": "see you around"
+      },
+      {
+        "intent": "goodbye",
+        "text": "bye bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "see you later"
+      },
+      {
+        "intent": "mood_affirm",
+        "text": "yes"
+      },
+      {
+        "intent": "mood_affirm",
+        "text": "indeed"
+      },
+      {
+        "intent": "mood_affirm",
+        "text": "of course"
+      },
+      {
+        "intent": "mood_affirm",
+        "text": "that sounds good"
+      },
+      {
+        "intent": "mood_affirm",
+        "text": "correct"
+      },
+      {
+        "intent": "mood_deny",
+        "text": "no"
+      },
+      {
+        "intent": "mood_deny",
+        "text": "never"
+      },
+      {
+        "intent": "mood_deny",
+        "text": "I don't think so"
+      },
+      {
+        "intent": "mood_deny",
+        "text": "don't like that"
+      },
+      {
+        "intent": "mood_deny",
+        "text": "no way"
+      },
+      {
+        "intent": "mood_deny",
+        "text": "not really"
+      },
+      {
+        "intent": "student_work_authorization",
+        "text": "What does the student’s work authorization look like?"
+      },
+      {
+        "intent": "student_work_authorization",
+        "text": "how is student work authorization?"
+      },
+      {
+        "intent": "student_work_authorization",
+        "text": "how does student work authorization look like?"
+      },
+      {
+        "intent": "student_work_authorization",
+        "text": "Student work authorization look?"
+      },
+      {
+        "intent": "student_work_authorization",
+        "text": "what's Student work authorization"
+      },
+      {
+        "intent": "student_work",
+        "text": "When can a student work?"
+      },
+      {
+        "intent": "student_work",
+        "text": "When can I work?"
+      },
+      {
+        "intent": "student_work_timings",
+        "text": "How many hours per week can a student work?"
+      },
+      {
+        "intent": "student_work_timings",
+        "text": "How many hours can I work?"
+      },
+      {
+        "intent": "student_work_timings",
+        "text": "number of hours I can work?"
+      },
+      {
+        "intent": "student_work_timings",
+        "text": "no. of hours I can work?"
+      },
+      {
+        "intent": "taxes",
+        "text": "Are F-1 students subject to taxes?"
+      },
+      {
+        "intent": "taxes",
+        "text": "am I subjected to tax ?"
+      },
+      {
+        "intent": "taxes",
+        "text": "how much tax shoud I pay ?"
+      },
+      {
+        "intent": "taxes",
+        "text": "should I pay tax ?"
+      },
+      {
+        "intent": "E_verify",
+        "text": "What is E-Verify?"
+      },
+      {
+        "intent": "E_verify",
+        "text": "how to do e-verify?"
+      },
+      {
+        "intent": "E_verify",
+        "text": "What is E Verify?"
+      },
+      {
+        "intent": "E_verify",
+        "text": "how to do e verify?"
+      },
+      {
+        "intent": "E_verify",
+        "text": "What is EVerify?"
+      },
+      {
+        "intent": "E_verify",
+        "text": "how to do everify"
+      },
+      {
+        "intent": "Visa_interview",
+        "text": "What all do I need for Visa Interview?"
+      },
+      {
+        "intent": "Visa_interview",
+        "text": "what all documents do I need for Visa Interview?"
+      },
+      {
+        "intent": "Visa_interview",
+        "text": "Documents needed for Visa Interview?"
+      },
+      {
+        "intent": "Visa_interview",
+        "text": "What all things do I need for Visa Interview?"
+      },
+      {
+        "intent": "Visa_interview",
+        "text": "What all papaers do I need for Visa Interview?"
+      },
+      {
+        "intent": "travel_date",
+        "text": "When can I travel to the usa?"
+      },
+      {
+        "intent": "travel_date",
+        "text": "How many days prior to my admission can I travel to the USA?"
+      },
+      {
+        "intent": "customs_immigration",
+        "text": "What all do I need for customs and immigration?"
+      },
+      {
+        "intent": "customs_immigration",
+        "text": "what all documents do I need for customs and immigration?"
+      },
+      {
+        "intent": "customs_immigration",
+        "text": "Documents needed for customs and immigration?"
+      },
+      {
+        "intent": "customs_immigration",
+        "text": "What all things do I need for customs and immigration?"
+      },
+      {
+        "intent": "customs_immigration",
+        "text": "What all papaers do I need for customs and immigration?"
+      },
+      {
+        "intent": "questions_during_visa",
+        "text": "What are the common questions asked during Visa interview?"
+      },
+      {
+        "intent": "questions_during_visa",
+        "text": "What should I prepare for Visa interview?"
+      },
+      {
+        "intent": "questions_during_visa",
+        "text": "What kind of questions are asked during a visa interview?"
+      },
+      {
+        "intent": "questions_during_visa",
+        "text": "Common questions durin Visa interview?"
+      },
+      {
+        "intent": "questions_during_visa",
+        "text": "Questions asked in a Visa interview?"
+      },
+      {
+        "intent": "health_insurance",
+        "text": "How do I pyrchase University heath insurance?"
+      },
+      {
+        "intent": "health_insurance",
+        "text": "What steps are involved in purchasing student health insurance?"
+      },
+      {
+        "intent": "health_insurance",
+        "text": "Steps to purchase health insurance?"
+      },
+      {
+        "intent": "health_insurance",
+        "text": "international Heath Insurance puchase?"
+      },
+      {
+        "intent": "immunization",
+        "text": "What are the steps involved in immunization?"
+      },
+      {
+        "intent": "immunization",
+        "text": "What all immunization do I need before getting to the USA?"
+      },
+      {
+        "intent": "immunization",
+        "text": "Kind of immunization required before reaching?"
+      },
+      {
+        "intent": "immunization",
+        "text": "What is the proof of immunization that needs to be submitted?"
+      },
+      {
+        "intent": "housing",
+        "text": "Where can I find the housing details of SJSU?"
+      },
+      {
+        "intent": "housing",
+        "text": "Accomodation in SJSU?"
+      },
+      {
+        "intent": "housing",
+        "text": "Accomodation for international students at SJSU?"
+      },
+      {
+        "intent": "housing",
+        "text": "Housing for students near SJSU?"
+      },
+      {
+        "intent": "housing",
+        "text": "Housing on campus?"
+      },
+      {
+        "intent": "course_registration",
+        "text": "How many courses do I need to register for?"
+      },
+      {
+        "intent": "course_registration",
+        "text": "How many credits are mandatory?"
+      },
+      {
+        "intent": "course_registration",
+        "text": "Number of credits at SJSU?"
+      },
+      {
+        "intent": "course_registration",
+        "text": "SJSU credits for F1 students?"
+      },
+      {
+        "intent": "tution",
+        "text": "Where can I find details about my tution fees?"
+      },
+      {
+        "intent": "tution",
+        "text": "Information about tution fees?"
+      },
+      {
+        "intent": "tution",
+        "text": "When do I have to pay for tution fees?"
+      },
+      {
+        "intent": "tution",
+        "text": "When can I register for the courses?"
+      },
+      {
+        "intent": "tution",
+        "text": "Where do I pay my tution?"
+      },
+      {
+        "intent": "tower_ID",
+        "text": "Where can I get my ID?"
+      },
+      {
+        "intent": "tower_ID",
+        "text": "Do I need an ID?"
+      },
+      {
+        "intent": "tower_ID",
+        "text": "Procedure to get an ID?"
+      },
+      {
+        "intent": "tower_ID",
+        "text": "Documents required to get an ID?"
+      },
+      {
+        "intent": "tower_ID",
+        "text": "How do I get my student ID?"
+      },
+      {
+        "intent": "tower_ID",
+        "text": "Steps involved in getting student ID card?"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 2,
+            "end": 5,
+            "value": "shibes",
+            "entity": "group"
+          }
+        ],
+        "text": "A dog"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "shibes",
+            "entity": "group"
+          }
+        ],
+        "text": "dog"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "birds",
+            "entity": "group"
+          }
+        ],
+        "text": "bird"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 2,
+            "end": 5,
+            "value": "cats",
+            "entity": "group"
+          }
+        ],
+        "text": "a cat"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "cats",
+            "entity": "group"
+          }
+        ],
+        "text": "cat"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 2,
+            "end": 6,
+            "value": "birds",
+            "entity": "group"
+          }
+        ],
+        "text": "a bird"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 5,
+            "end": 8,
+            "value": "shibes",
+            "entity": "group"
+          }
+        ],
+        "text": "of a dog"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 5,
+            "end": 8,
+            "value": "cats",
+            "entity": "group"
+          }
+        ],
+        "text": "of a cat"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 2,
+            "end": 6,
+            "value": "birds",
+            "entity": "group"
+          }
+        ],
+        "text": "a bird, please"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 2,
+            "end": 5,
+            "value": "shibes",
+            "entity": "group"
+          }
+        ],
+        "text": "a dog, please"
+      }
+    ],
+    "regex_features": [],
+    "lookup_tables": [],
+    "entity_synonyms": [
+      {
+        "value": "shibes",
+        "synonyms": [
+          "dog"
+        ]
+      },
+      {
+        "value": "birds",
+        "synonyms": [
+          "bird"
+        ]
+      },
+      {
+        "value": "cats",
+        "synonyms": [
+          "cat"
+        ]
+      }
+    ]
+  }
+}

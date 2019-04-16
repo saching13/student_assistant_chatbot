@@ -1,0 +1,2 @@
+model_checkpoint_path: "/Users/saching12/Desktop/python codes/student_assistant_chatbot/./models/nlu/default/current/intent_classifier_tensorflow_embedding.ckpt"
+all_model_checkpoint_paths: "/Users/saching12/Desktop/python codes/student_assistant_chatbot/./models/nlu/default/current/intent_classifier_tensorflow_embedding.ckpt"
