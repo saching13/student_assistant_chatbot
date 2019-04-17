@@ -10,8 +10,8 @@
 - hey there
 - let's go
 - hey dude
-- goodmorning
-- goodevening
+- good morning
+- good evening
 - good afternoon
 
 ## intent:goodbye
@@ -142,13 +142,8 @@
 -How do I get my student ID?
 -Steps involved in getting student ID card?
 
-## intent: inform
+##intent:inform
+- what [event](events) is happening tomorrow?
+- do we have any [event](events) today?
+- is there any [event](events) on 12th October?
 
-- what event is happening [tomorrow](DATE)?
-- do we have any event [today](DATE)?
-- is there any event on [12th October](DATE)?
-- is there any event on [15th November](DATE)?
-- is there any event on [22nd January](DATE)?
-- is there any event on [2nd February](DATE)?
-- is there any event on [30th October](DATE)?
-- is there any event on [wednesday](DATE)?

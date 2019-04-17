@@ -89,9 +89,19 @@
             "name": "intent_classifier_tensorflow_embedding",
             "classifier_file": "intent_classifier_tensorflow_embedding.ckpt",
             "class": "rasa_nlu.classifiers.embedding_intent_classifier.EmbeddingIntentClassifier"
+        },
+        {
+            "dimensions": [
+                "time"
+            ],
+            "url": "http://127.0.0.1:8000",
+            "locale": null,
+            "timezone": null,
+            "name": "ner_duckling_http",
+            "class": "rasa_nlu.extractors.duckling_http_extractor.DucklingHTTPExtractor"
         }
     ],
     "training_data": "training_data.json",
-    "trained_at": "20190416-150602",
+    "trained_at": "20190416-231725",
     "rasa_nlu_version": "0.14.4"
 }

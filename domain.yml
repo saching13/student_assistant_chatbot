@@ -12,6 +12,8 @@ intents:
 - taxes
 - E_verify
 - travel_date
+- questions_during_visa
+- immunization
 - Visa_interview
 - customs_immigration
 - health_insurance
@@ -22,13 +24,13 @@ intents:
 - inform
 
 slots:
-  DATE:
+  time:
     type: text
   events:
     type: text
 
 entities:
-- DATE
+- time
 - events
 
 actions:
@@ -54,7 +56,7 @@ actions:
 - utter_answer_course_registration
 - utter_answer_tution
 - utter_answer_tower_ID
-- __main__.ApiAction
+- action_retrieve_event
 
 templates:
   utter_greet:

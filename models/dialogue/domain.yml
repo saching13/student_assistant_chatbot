@@ -23,11 +23,12 @@ actions:
 - utter_answer_course_registration
 - utter_answer_tution
 - utter_answer_tower_ID
-- __main__.ApiAction
+- action_retrieve_event
 config:
   store_entities_as_slots: true
 entities:
-- group
+- time
+- events
 forms: []
 intents:
 - greet:
@@ -54,6 +55,10 @@ intents:
     use_entities: true
 - travel_date:
     use_entities: true
+- questions_during_visa:
+    use_entities: true
+- immunization:
+    use_entities: true
 - Visa_interview:
     use_entities: true
 - customs_immigration:
@@ -71,7 +76,11 @@ intents:
 - inform:
     use_entities: true
 slots:
-  group:
+  events:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  time:
     auto_fill: true
     initial_value: null
     type: rasa_core.slots.TextSlot

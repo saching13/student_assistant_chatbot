@@ -43,11 +43,11 @@
       },
       {
         "intent": "greet",
-        "text": "goodmorning"
+        "text": "good morning"
       },
       {
         "intent": "greet",
-        "text": "goodevening"
+        "text": "good evening"
       },
       {
         "intent": "greet",
@@ -409,10 +409,10 @@
         "intent": "inform",
         "entities": [
           {
-            "start": 24,
-            "end": 32,
-            "value": "tomorrow",
-            "entity": "DATE"
+            "start": 5,
+            "end": 10,
+            "value": "event",
+            "entity": "events"
           }
         ],
         "text": "what event is happening tomorrow?"
@@ -421,10 +421,10 @@
         "intent": "inform",
         "entities": [
           {
-            "start": 21,
-            "end": 26,
-            "value": "today",
-            "entity": "DATE"
+            "start": 15,
+            "end": 20,
+            "value": "event",
+            "entity": "events"
           }
         ],
         "text": "do we have any event today?"
@@ -433,25 +433,13 @@
         "intent": "inform",
         "entities": [
           {
-            "start": 22,
-            "end": 24,
-            "value": "12",
-            "entity": "DATE"
+            "start": 13,
+            "end": 18,
+            "value": "event",
+            "entity": "events"
           }
         ],
-        "text": "is there any event on 12th?"
-      },
-      {
-        "intent": "inform",
-        "entities": [
-          {
-            "start": 22,
-            "end": 31,
-            "value": "wednesday",
-            "entity": "DATE"
-          }
-        ],
-        "text": "is there any event on wednesday?"
+        "text": "is there any event on 12th October?"
       }
     ],
     "regex_features": [],

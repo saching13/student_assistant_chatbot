@@ -3,13 +3,16 @@
     "action_listen": {
       "slots": []
     },
-    "utter_unclear": {
-      "slots": []
-    },
     "utter_goodbye": {
       "slots": []
     },
+    "utter_unclear": {
+      "slots": []
+    },
     "utter_greet": {
+      "slots": []
+    },
+    "utter_did_that_help": {
       "slots": []
     }
   },
@@ -25,7 +28,7 @@
     "rasa_core.policies.memoization.MemoizationPolicy",
     "rasa_core.policies.fallback.FallbackPolicy"
   ],
-  "trained_at": "20190416-004908",
+  "trained_at": "20190416-232843",
   "rasa_core": "0.13.3",
   "tensorflow": "1.12.0",
   "sklearn": "0.20.3"

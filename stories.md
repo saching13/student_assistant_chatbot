@@ -8,7 +8,6 @@
 ## say goodbye
 * goodbye
   - utter_goodbye
-> goodbye_checkpoint
 
 ## question_1_Affirm
 * student_work_authorization
@@ -351,21 +350,21 @@
   - utter_goodbye
   
 ##tower_ID
-* tution
+* tower_ID
   - utter_answer_tower_ID
   - utter_did_that_help
 * mood_affirm
   - utter_goodbye
 
 ##tower_ID
-* tution
+* tower_ID
   - utter_answer_tower_ID
   - utter_did_that_help
 * mood_deny
   - utter_unclear
   
 ##tower_ID
-* tution
+* tower_ID
   - utter_answer_tower_ID
   - utter_did_that_help
 * mood_deny
@@ -374,6 +373,10 @@
   - utter_okay
   - utter_goodbye
   
+##inform
+* inform
+  - action_retrieve_event
+  - utter_did_that_help
   
 ## fallback
 - utter_unclear
