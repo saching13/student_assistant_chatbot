@@ -143,13 +143,12 @@
 -Steps involved in getting student ID card?
 
 ## intent: inform
-- A [dog](group:shibes)
-- [dog](group:shibes)
-- [bird](group:birds)
-- a [cat](group:cats)
-- [cat](group:cats)
-- a [bird](group:birds)
-- of a [dog](group:shibes)
-- of a [cat](group:cats)
-- a [bird](group:birds), please
-- a [dog](group:shibes), please
+
+- what event is happening [tomorrow](DATE)?
+- do we have any event [today](DATE)?
+- is there any event on [12th October](DATE)?
+- is there any event on [15th November](DATE)?
+- is there any event on [22nd January](DATE)?
+- is there any event on [2nd February](DATE)?
+- is there any event on [30th October](DATE)?
+- is there any event on [wednesday](DATE)?

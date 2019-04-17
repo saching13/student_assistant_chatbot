@@ -1,15 +1,10 @@
 
-policies:
-  - name: "KerasPolicy"
-    epochs: 300
-    featurizer:
-    - name: MaxHistoryTrackerFeaturizer
-      max_history: 2
-      state_featurizer:
-        - name: BinarySingleStateFeaturizer
-  - name: "MemoizationPolicy"
-    max_history: 2
-  - name: "FallbackPolicy"
-    nlu_threshold: 0.5
-    core_threshold: 0.2
-    fallback_action_name: "utter_unclear"
+language: "en"
+
+pipeline:
+- name: "tokenizer_whitespace"
+- name: "ner_spacy"
+- name: "ner_crf"
+- name: "ner_synonyms"
+- name: "intent_featurizer_count_vectors"
+- name: "intent_classifier_tensorflow_embedding"

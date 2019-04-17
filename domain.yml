@@ -22,11 +22,14 @@ intents:
 - inform
 
 slots:
-  group:
+  DATE:
     type: text
-    
+  events:
+    type: text
+
 entities:
-- group
+- DATE
+- events
 
 actions:
 - utter_greet

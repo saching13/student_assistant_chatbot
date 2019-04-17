@@ -409,144 +409,53 @@
         "intent": "inform",
         "entities": [
           {
-            "start": 2,
-            "end": 5,
-            "value": "shibes",
-            "entity": "group"
+            "start": 24,
+            "end": 32,
+            "value": "tomorrow",
+            "entity": "DATE"
           }
         ],
-        "text": "A dog"
+        "text": "what event is happening tomorrow?"
       },
       {
         "intent": "inform",
         "entities": [
           {
-            "start": 0,
-            "end": 3,
-            "value": "shibes",
-            "entity": "group"
+            "start": 21,
+            "end": 26,
+            "value": "today",
+            "entity": "DATE"
           }
         ],
-        "text": "dog"
+        "text": "do we have any event today?"
       },
       {
         "intent": "inform",
         "entities": [
           {
-            "start": 0,
-            "end": 4,
-            "value": "birds",
-            "entity": "group"
+            "start": 22,
+            "end": 24,
+            "value": "12",
+            "entity": "DATE"
           }
         ],
-        "text": "bird"
+        "text": "is there any event on 12th?"
       },
       {
         "intent": "inform",
         "entities": [
           {
-            "start": 2,
-            "end": 5,
-            "value": "cats",
-            "entity": "group"
+            "start": 22,
+            "end": 31,
+            "value": "wednesday",
+            "entity": "DATE"
           }
         ],
-        "text": "a cat"
-      },
-      {
-        "intent": "inform",
-        "entities": [
-          {
-            "start": 0,
-            "end": 3,
-            "value": "cats",
-            "entity": "group"
-          }
-        ],
-        "text": "cat"
-      },
-      {
-        "intent": "inform",
-        "entities": [
-          {
-            "start": 2,
-            "end": 6,
-            "value": "birds",
-            "entity": "group"
-          }
-        ],
-        "text": "a bird"
-      },
-      {
-        "intent": "inform",
-        "entities": [
-          {
-            "start": 5,
-            "end": 8,
-            "value": "shibes",
-            "entity": "group"
-          }
-        ],
-        "text": "of a dog"
-      },
-      {
-        "intent": "inform",
-        "entities": [
-          {
-            "start": 5,
-            "end": 8,
-            "value": "cats",
-            "entity": "group"
-          }
-        ],
-        "text": "of a cat"
-      },
-      {
-        "intent": "inform",
-        "entities": [
-          {
-            "start": 2,
-            "end": 6,
-            "value": "birds",
-            "entity": "group"
-          }
-        ],
-        "text": "a bird, please"
-      },
-      {
-        "intent": "inform",
-        "entities": [
-          {
-            "start": 2,
-            "end": 5,
-            "value": "shibes",
-            "entity": "group"
-          }
-        ],
-        "text": "a dog, please"
+        "text": "is there any event on wednesday?"
       }
     ],
     "regex_features": [],
     "lookup_tables": [],
-    "entity_synonyms": [
-      {
-        "value": "shibes",
-        "synonyms": [
-          "dog"
-        ]
-      },
-      {
-        "value": "birds",
-        "synonyms": [
-          "bird"
-        ]
-      },
-      {
-        "value": "cats",
-        "synonyms": [
-          "cat"
-        ]
-      }
-    ]
+    "entity_synonyms": []
   }
 }
