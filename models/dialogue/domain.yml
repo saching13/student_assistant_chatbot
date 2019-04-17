@@ -23,6 +23,7 @@ actions:
 - utter_answer_course_registration
 - utter_answer_tution
 - utter_answer_tower_ID
+- utter_retrieve_event
 - action_retrieve_event
 config:
   store_entities_as_slots: true
@@ -177,5 +178,7 @@ templates:
   - text: Great carry on!
   utter_okay:
   - text: Okay
+  utter_retrieve_event:
+  - text: bla bla bla
   utter_unclear:
   - text: My bad I din't get you!!! Is there anything else you would like to ask ?.

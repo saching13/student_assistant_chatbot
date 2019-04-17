@@ -56,6 +56,7 @@ actions:
 - utter_answer_course_registration
 - utter_answer_tution
 - utter_answer_tower_ID
+- utter_retrieve_event
 - action_retrieve_event
 
 templates:
@@ -150,3 +151,5 @@ templates:
   utter_answer_tower_ID:
   - text: "Tower Cards are available at the Cashier's Office located in the Student Services Center. You will be required to show one form of photo ID, such as your passport or driver’s license."
 
+  utter_retrieve_event:
+  - text: "bla bla bla"

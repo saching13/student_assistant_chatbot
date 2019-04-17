@@ -376,7 +376,7 @@
 ##inform
 * inform
   - action_retrieve_event
-  - utter_did_that_help
+
   
 ## fallback
 - utter_unclear

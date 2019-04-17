@@ -55,6 +55,7 @@
     "prev_utter_answer_course_registration",
     "prev_utter_answer_tution",
     "prev_utter_answer_tower_ID",
+    "prev_utter_retrieve_event",
     "prev_action_retrieve_event"
   ]
 }
