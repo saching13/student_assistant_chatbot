@@ -11,19 +11,20 @@ mydb = mysql.connector.connect(
 print(mydb)
 
 mycursor = mydb.cursor()
-date = ('2019-04-17',)
-mycursor.execute("select event_name,start_time,end_time,venue from events where event_date = %s ",date)
+date = '2019-04-17 00:00:00'
+
+mycursor.execute("select event_name,start_time,end_time,venue from events where event_date = %s ",(date,))
 
 
 myresult = mycursor.fetchall()
 
-
+print(myresult)
 for d in myresult:
     [name,start_time,end_time,location] =d
 
     start_time = (datetime.datetime.min + start_time).time()
     end_time = (datetime.datetime.min + end_time).time()
-    print(start_time,end_time)
+    print(type(start_time),end_time,name)
 
 
 
